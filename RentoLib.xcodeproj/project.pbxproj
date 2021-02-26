@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6621B80125E7C81E00B1AEEC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6621B80025E7C81E00B1AEEC /* SearchViewController.swift */; };
+		6621B80625E7C82900B1AEEC /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6621B80525E7C82900B1AEEC /* PostViewController.swift */; };
+		6621B80B25E7D21C00B1AEEC /* ProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6621B80A25E7D21C00B1AEEC /* ProductData.swift */; };
+		6621B81025E7D96800B1AEEC /* PostManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6621B80F25E7D96800B1AEEC /* PostManager.swift */; };
+		66381E8F25E690C500260327 /* JSONResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66381E8E25E690C500260327 /* JSONResponseModel.swift */; };
+		663ED19B25E3CCAB0037DEE7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663ED19A25E3CCAB0037DEE7 /* RegisterViewController.swift */; };
+		663ED1A125E400A10037DEE7 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663ED1A025E400A10037DEE7 /* LoginManager.swift */; };
+		663ED1A625E400AC0037DEE7 /* RegistrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663ED1A525E400AC0037DEE7 /* RegistrationManager.swift */; };
+		663ED1B525E407EB0037DEE7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663ED1B425E407EB0037DEE7 /* UserModel.swift */; };
+		663ED1C825E41B2A0037DEE7 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663ED1C725E41B2A0037DEE7 /* UserData.swift */; };
+		66461C0525E39A8C00FD4EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66461C0425E39A8C00FD4EA1 /* AppDelegate.swift */; };
+		66461C0725E39A8D00FD4EA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66461C0625E39A8D00FD4EA1 /* SceneDelegate.swift */; };
+		66461C0925E39A8D00FD4EA1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66461C0825E39A8D00FD4EA1 /* LoginViewController.swift */; };
+		66461C0C25E39A8D00FD4EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66461C0A25E39A8D00FD4EA1 /* Main.storyboard */; };
+		66461C0E25E39A8D00FD4EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66461C0D25E39A8D00FD4EA1 /* Assets.xcassets */; };
+		66461C1125E39A8D00FD4EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66461C0F25E39A8D00FD4EA1 /* LaunchScreen.storyboard */; };
+		66461C1C25E39A8D00FD4EA1 /* RentoLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66461C1B25E39A8D00FD4EA1 /* RentoLibTests.swift */; };
+		66461C2725E39A8D00FD4EA1 /* RentoLibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66461C2625E39A8D00FD4EA1 /* RentoLibUITests.swift */; };
+		66AF069B25E4FBD800E5A1FB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF069A25E4FBD800E5A1FB /* HomeViewController.swift */; };
+		66AF06A025E50B9100E5A1FB /* LocationRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF069F25E50B9100E5A1FB /* LocationRegisterViewController.swift */; };
+		66DF561525E8324B0018079C /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF561425E8324B0018079C /* SearchManager.swift */; };
+		66DF561D25E833030018079C /* ProductFilterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF561C25E833030018079C /* ProductFilterData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66461C1825E39A8D00FD4EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66461BF925E39A8C00FD4EA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66461C0025E39A8C00FD4EA1;
+			remoteInfo = RentoLib;
+		};
+		66461C2325E39A8D00FD4EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66461BF925E39A8C00FD4EA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66461C0025E39A8C00FD4EA1;
+			remoteInfo = RentoLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6621B80025E7C81E00B1AEEC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		6621B80525E7C82900B1AEEC /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		6621B80A25E7D21C00B1AEEC /* ProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductData.swift; sourceTree = "<group>"; };
+		6621B80F25E7D96800B1AEEC /* PostManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostManager.swift; sourceTree = "<group>"; };
+		66381E8E25E690C500260327 /* JSONResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONResponseModel.swift; sourceTree = "<group>"; };
+		663ED19A25E3CCAB0037DEE7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		663ED1A025E400A10037DEE7 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		663ED1A525E400AC0037DEE7 /* RegistrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationManager.swift; sourceTree = "<group>"; };
+		663ED1B425E407EB0037DEE7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		663ED1C725E41B2A0037DEE7 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		66461C0125E39A8C00FD4EA1 /* RentoLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentoLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66461C0425E39A8C00FD4EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66461C0625E39A8D00FD4EA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		66461C0825E39A8D00FD4EA1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		66461C0B25E39A8D00FD4EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66461C0D25E39A8D00FD4EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66461C1025E39A8D00FD4EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66461C1225E39A8D00FD4EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66461C1725E39A8D00FD4EA1 /* RentoLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentoLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66461C1B25E39A8D00FD4EA1 /* RentoLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentoLibTests.swift; sourceTree = "<group>"; };
+		66461C1D25E39A8D00FD4EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66461C2225E39A8D00FD4EA1 /* RentoLibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentoLibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66461C2625E39A8D00FD4EA1 /* RentoLibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentoLibUITests.swift; sourceTree = "<group>"; };
+		66461C2825E39A8D00FD4EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66AF069A25E4FBD800E5A1FB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		66AF069F25E50B9100E5A1FB /* LocationRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRegisterViewController.swift; sourceTree = "<group>"; };
+		66DF561425E8324B0018079C /* SearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
+		66DF561C25E833030018079C /* ProductFilterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFilterData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66461BFE25E39A8C00FD4EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66461C1425E39A8D00FD4EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66461C1F25E39A8D00FD4EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		663ED1AA25E407A00037DEE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				663ED1B425E407EB0037DEE7 /* UserModel.swift */,
+				663ED1C725E41B2A0037DEE7 /* UserData.swift */,
+				66381E8E25E690C500260327 /* JSONResponseModel.swift */,
+				6621B80A25E7D21C00B1AEEC /* ProductData.swift */,
+				66DF561C25E833030018079C /* ProductFilterData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66461BF825E39A8C00FD4EA1 = {
+			isa = PBXGroup;
+			children = (
+				66461C0325E39A8C00FD4EA1 /* RentoLib */,
+				66461C1A25E39A8D00FD4EA1 /* RentoLibTests */,
+				66461C2525E39A8D00FD4EA1 /* RentoLibUITests */,
+				66461C0225E39A8C00FD4EA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66461C0225E39A8C00FD4EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66461C0125E39A8C00FD4EA1 /* RentoLib.app */,
+				66461C1725E39A8D00FD4EA1 /* RentoLibTests.xctest */,
+				66461C2225E39A8D00FD4EA1 /* RentoLibUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66461C0325E39A8C00FD4EA1 /* RentoLib */ = {
+			isa = PBXGroup;
+			children = (
+				66461C3A25E3AB3D00FD4EA1 /* Manager */,
+				663ED1AA25E407A00037DEE7 /* Model */,
+				66461C3B25E3AB4200FD4EA1 /* View */,
+				66461C3C25E3AB4700FD4EA1 /* Controller */,
+				66461C0425E39A8C00FD4EA1 /* AppDelegate.swift */,
+				66461C0625E39A8D00FD4EA1 /* SceneDelegate.swift */,
+				66461C0D25E39A8D00FD4EA1 /* Assets.xcassets */,
+				66461C0F25E39A8D00FD4EA1 /* LaunchScreen.storyboard */,
+				66461C1225E39A8D00FD4EA1 /* Info.plist */,
+			);
+			path = RentoLib;
+			sourceTree = "<group>";
+		};
+		66461C1A25E39A8D00FD4EA1 /* RentoLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				66461C1B25E39A8D00FD4EA1 /* RentoLibTests.swift */,
+				66461C1D25E39A8D00FD4EA1 /* Info.plist */,
+			);
+			path = RentoLibTests;
+			sourceTree = "<group>";
+		};
+		66461C2525E39A8D00FD4EA1 /* RentoLibUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66461C2625E39A8D00FD4EA1 /* RentoLibUITests.swift */,
+				66461C2825E39A8D00FD4EA1 /* Info.plist */,
+			);
+			path = RentoLibUITests;
+			sourceTree = "<group>";
+		};
+		66461C3A25E3AB3D00FD4EA1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				663ED1A025E400A10037DEE7 /* LoginManager.swift */,
+				663ED1A525E400AC0037DEE7 /* RegistrationManager.swift */,
+				6621B80F25E7D96800B1AEEC /* PostManager.swift */,
+				66DF561425E8324B0018079C /* SearchManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		66461C3B25E3AB4200FD4EA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66461C0A25E39A8D00FD4EA1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66461C3C25E3AB4700FD4EA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66461C0825E39A8D00FD4EA1 /* LoginViewController.swift */,
+				663ED19A25E3CCAB0037DEE7 /* RegisterViewController.swift */,
+				66AF069A25E4FBD800E5A1FB /* HomeViewController.swift */,
+				66AF069F25E50B9100E5A1FB /* LocationRegisterViewController.swift */,
+				6621B80025E7C81E00B1AEEC /* SearchViewController.swift */,
+				6621B80525E7C82900B1AEEC /* PostViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66461C0025E39A8C00FD4EA1 /* RentoLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66461C2B25E39A8D00FD4EA1 /* Build configuration list for PBXNativeTarget "RentoLib" */;
+			buildPhases = (
+				66461BFD25E39A8C00FD4EA1 /* Sources */,
+				66461BFE25E39A8C00FD4EA1 /* Frameworks */,
+				66461BFF25E39A8C00FD4EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RentoLib;
+			productName = RentoLib;
+			productReference = 66461C0125E39A8C00FD4EA1 /* RentoLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66461C1625E39A8D00FD4EA1 /* RentoLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66461C2E25E39A8D00FD4EA1 /* Build configuration list for PBXNativeTarget "RentoLibTests" */;
+			buildPhases = (
+				66461C1325E39A8D00FD4EA1 /* Sources */,
+				66461C1425E39A8D00FD4EA1 /* Frameworks */,
+				66461C1525E39A8D00FD4EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66461C1925E39A8D00FD4EA1 /* PBXTargetDependency */,
+			);
+			name = RentoLibTests;
+			productName = RentoLibTests;
+			productReference = 66461C1725E39A8D00FD4EA1 /* RentoLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66461C2125E39A8D00FD4EA1 /* RentoLibUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66461C3125E39A8D00FD4EA1 /* Build configuration list for PBXNativeTarget "RentoLibUITests" */;
+			buildPhases = (
+				66461C1E25E39A8D00FD4EA1 /* Sources */,
+				66461C1F25E39A8D00FD4EA1 /* Frameworks */,
+				66461C2025E39A8D00FD4EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66461C2425E39A8D00FD4EA1 /* PBXTargetDependency */,
+			);
+			name = RentoLibUITests;
+			productName = RentoLibUITests;
+			productReference = 66461C2225E39A8D00FD4EA1 /* RentoLibUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66461BF925E39A8C00FD4EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					66461C0025E39A8C00FD4EA1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					66461C1625E39A8D00FD4EA1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 66461C0025E39A8C00FD4EA1;
+					};
+					66461C2125E39A8D00FD4EA1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 66461C0025E39A8C00FD4EA1;
+					};
+				};
+			};
+			buildConfigurationList = 66461BFC25E39A8C00FD4EA1 /* Build configuration list for PBXProject "RentoLib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66461BF825E39A8C00FD4EA1;
+			productRefGroup = 66461C0225E39A8C00FD4EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66461C0025E39A8C00FD4EA1 /* RentoLib */,
+				66461C1625E39A8D00FD4EA1 /* RentoLibTests */,
+				66461C2125E39A8D00FD4EA1 /* RentoLibUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66461BFF25E39A8C00FD4EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66461C1125E39A8D00FD4EA1 /* LaunchScreen.storyboard in Resources */,
+				66461C0E25E39A8D00FD4EA1 /* Assets.xcassets in Resources */,
+				66461C0C25E39A8D00FD4EA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66461C1525E39A8D00FD4EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66461C2025E39A8D00FD4EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66461BFD25E39A8C00FD4EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663ED1A625E400AC0037DEE7 /* RegistrationManager.swift in Sources */,
+				6621B80B25E7D21C00B1AEEC /* ProductData.swift in Sources */,
+				6621B81025E7D96800B1AEEC /* PostManager.swift in Sources */,
+				663ED1B525E407EB0037DEE7 /* UserModel.swift in Sources */,
+				663ED1C825E41B2A0037DEE7 /* UserData.swift in Sources */,
+				66DF561D25E833030018079C /* ProductFilterData.swift in Sources */,
+				6621B80625E7C82900B1AEEC /* PostViewController.swift in Sources */,
+				663ED1A125E400A10037DEE7 /* LoginManager.swift in Sources */,
+				66381E8F25E690C500260327 /* JSONResponseModel.swift in Sources */,
+				66AF06A025E50B9100E5A1FB /* LocationRegisterViewController.swift in Sources */,
+				66461C0925E39A8D00FD4EA1 /* LoginViewController.swift in Sources */,
+				6621B80125E7C81E00B1AEEC /* SearchViewController.swift in Sources */,
+				66AF069B25E4FBD800E5A1FB /* HomeViewController.swift in Sources */,
+				66461C0525E39A8C00FD4EA1 /* AppDelegate.swift in Sources */,
+				66461C0725E39A8D00FD4EA1 /* SceneDelegate.swift in Sources */,
+				663ED19B25E3CCAB0037DEE7 /* RegisterViewController.swift in Sources */,
+				66DF561525E8324B0018079C /* SearchManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66461C1325E39A8D00FD4EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66461C1C25E39A8D00FD4EA1 /* RentoLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66461C1E25E39A8D00FD4EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66461C2725E39A8D00FD4EA1 /* RentoLibUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66461C1925E39A8D00FD4EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66461C0025E39A8C00FD4EA1 /* RentoLib */;
+			targetProxy = 66461C1825E39A8D00FD4EA1 /* PBXContainerItemProxy */;
+		};
+		66461C2425E39A8D00FD4EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66461C0025E39A8C00FD4EA1 /* RentoLib */;
+			targetProxy = 66461C2325E39A8D00FD4EA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66461C0A25E39A8D00FD4EA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66461C0B25E39A8D00FD4EA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66461C0F25E39A8D00FD4EA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66461C1025E39A8D00FD4EA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66461C2925E39A8D00FD4EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66461C2A25E39A8D00FD4EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66461C2C25E39A8D00FD4EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HRX468FZ8;
+				INFOPLIST_FILE = RentoLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramimoubayed.RentoLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66461C2D25E39A8D00FD4EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HRX468FZ8;
+				INFOPLIST_FILE = RentoLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramimoubayed.RentoLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66461C2F25E39A8D00FD4EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RentoLibTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramimoubayed.RentoLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentoLib.app/RentoLib";
+			};
+			name = Debug;
+		};
+		66461C3025E39A8D00FD4EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RentoLibTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramimoubayed.RentoLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentoLib.app/RentoLib";
+			};
+			name = Release;
+		};
+		66461C3225E39A8D00FD4EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RentoLibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramimoubayed.RentoLibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RentoLib;
+			};
+			name = Debug;
+		};
+		66461C3325E39A8D00FD4EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RentoLibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramimoubayed.RentoLibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RentoLib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66461BFC25E39A8C00FD4EA1 /* Build configuration list for PBXProject "RentoLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66461C2925E39A8D00FD4EA1 /* Debug */,
+				66461C2A25E39A8D00FD4EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66461C2B25E39A8D00FD4EA1 /* Build configuration list for PBXNativeTarget "RentoLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66461C2C25E39A8D00FD4EA1 /* Debug */,
+				66461C2D25E39A8D00FD4EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66461C2E25E39A8D00FD4EA1 /* Build configuration list for PBXNativeTarget "RentoLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66461C2F25E39A8D00FD4EA1 /* Debug */,
+				66461C3025E39A8D00FD4EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66461C3125E39A8D00FD4EA1 /* Build configuration list for PBXNativeTarget "RentoLibUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66461C3225E39A8D00FD4EA1 /* Debug */,
+				66461C3325E39A8D00FD4EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66461BF925E39A8C00FD4EA1 /* Project object */;
+}
